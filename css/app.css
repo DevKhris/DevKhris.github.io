@@ -1,19 +1,27 @@
 /********** Standard settings **********/
+
 * {
     box-sizing: border-box;
     font-family: 'Rajdhani', 'Roboto', sans-serif;
     font-weight: 500;
+    scroll-behavior: smooth;
 }
 
 body {
     padding-top: 42px;
-
 }
+
+p {
+    white-space: normal;
+}
+
+
 /********* Standard Classes **********/
 
 .lead {
     font-weight: 500;
 }
+
 .center {
     display: block;
     margin-left: auto;
@@ -34,7 +42,7 @@ body {
     background-color: #121212;
     color: #ff0a20;
     border-color: #121212;
-    transition: .33s all ease-out ;
+    transition: .33s all ease-out;
 }
 
 .btn-outline-coral {
@@ -46,10 +54,11 @@ body {
 }
 
 .btn-outline-coral:hover {
-    color:#121212;
+    color: #121212;
     background-color: #ff0a20;
     transition: .55s all ease-in;
 }
+
 
 /********** Page content **********/
 
@@ -64,8 +73,9 @@ body {
     background-attachment: fixed !important;
     background-size: cover;
 }
-/********** Portfolio **********/
 
+
+/********** Portfolio **********/
 
 li.portfolio-li {
     background: inherit;
@@ -81,20 +91,20 @@ li.portfolio-li {
 
 @media screen and (max-width: 1024px) {
     .portfolio-btn {
-    margin-left: 65%;
-    margin-bottom: 30%;
-    position: absolute;
-    }    
+        margin-left: 65%;
+        margin-bottom: 30%;
+        position: absolute;
+    }
 }
 
 hr.portfolio-hr {
     display: block;
     border: 0.5px solid #dd1222;
 }
+
 .portfolio-link {
     background: inherit;
     color: #ffffff;
-
 }
 
 .portfolio-link:hover {
@@ -108,13 +118,13 @@ hr.portfolio-hr {
     font-size: 1.2em;
     display: inline-block;
     margin-bottom: 1em;
-
 }
 
-.badge-coral{
+.badge-coral {
     background-color: #121212;
     color: #ff0a20;
 }
+
 .badge-coral:hover {
     background-color: #ff0a20;
     color: #121212;
@@ -135,7 +145,9 @@ hr.portfolio-hr {
     object-fit: contain;
 }
 
+
 /********** Timeline **********/
+
 .timeline {
     position: relative;
     margin: 0 auto;
@@ -152,7 +164,9 @@ hr.portfolio-hr {
     margin-left: -3px;
 }
 
+
 /* Container around content */
+
 .timeline-container {
     padding: 10px 40px;
     position: relative;
@@ -161,7 +175,9 @@ hr.portfolio-hr {
     max-height: auto;
 }
 
+
 /* The circles on the timeline */
+
 .timeline-container::after {
     content: '';
     position: absolute;
@@ -173,13 +189,11 @@ hr.portfolio-hr {
     top: 15px;
     border-radius: 50%;
     z-index: 1;
-
 }
 
 .timeline-image::after,
 ::before {
     box-sizing: inherit;
-    
 }
 
 .timeline-bar {
@@ -193,13 +207,16 @@ hr.portfolio-hr {
 }
 
 .timeline a {
-        text-decoration: none;
+    text-decoration: none;
 }
+
+
 /************ Colors *******/
 
 .bg-coral {
     background-color: #ff0a20;
 }
+
 .bg-orange {
     background-color: #ff9d00;
 }
@@ -220,7 +237,9 @@ hr.portfolio-hr {
     background-color: #3c00ff;
 }
 
+
 /****** Avatar & Icons ***********/
+
 .avatar {
     position: relative;
     overflow: hidden;
@@ -230,7 +249,6 @@ hr.portfolio-hr {
 .avatar img {
     width: auto;
     height: auto;
-
 }
 
 .icon {
@@ -240,8 +258,10 @@ hr.portfolio-hr {
 }
 
 .icon:hover {
-    color:  #ff0a20;
+    color: #ff0a20;
 }
+
+
 /********** Scrollbar **********/
 
 
@@ -256,7 +276,6 @@ hr.portfolio-hr {
 
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px #121212;
-
 }
 
 
@@ -264,7 +283,6 @@ hr.portfolio-hr {
 
 ::-webkit-scrollbar-thumb {
     background: #ff0a20;
-
 }
 
 
