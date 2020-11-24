@@ -67,7 +67,7 @@ p {
 }
 
 .bg-img {
-    background-image: url('../assets/wall.jpg');
+    background-image: url('../assets/wall-min.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed !important;
