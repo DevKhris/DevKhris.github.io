@@ -16,7 +16,7 @@ p {
 }
 
 
-/********* Standard Classes **********/
+/********* Standard Classes*****/
 
 .lead {
     font-weight: 500;
@@ -28,6 +28,22 @@ p {
     margin-right: auto;
 }
 
+.nav-link:hover {
+    color:  #ff0a20 !important;
+    font-weight: 600;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+/******** Buttons ************/
 .btn-coral {
     font-size: 1.2em;
     background-color: #ff0a20;
@@ -42,7 +58,7 @@ p {
     background-color: #121212;
     color: #ff0a20;
     border-color: #121212;
-    transition: .33s all ease-out;
+    transition: .35s all linear;
 }
 
 .btn-outline-coral {
@@ -60,7 +76,8 @@ p {
 }
 
 
-/********** Page content **********/
+
+/********** Page content *********/
 
 .bg-dark {
     background-color: #121212 !important;
@@ -74,7 +91,14 @@ p {
     background-size: cover;
 }
 
-
+#scrollTopBtn {
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  overflow: hidden;
+  word-wrap: normal !important;
+}
 /********** Portfolio **********/
 
 li.portfolio-li {
@@ -210,7 +234,41 @@ hr.portfolio-hr {
     text-decoration: none;
 }
 
+/************ Cards ********/
 
+div .card{
+     border-radius: 2% 2% 2% 2%;   
+}
+
+.card {
+    background-color: #131313;
+    color: #fff;
+    border-color: #ff0a20;
+}
+.card img {
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.card .btn-coral {
+    border-color: #ff0a20;
+}
+
+/************ List Group ****/
+.list-group-item {
+    color: #131313;
+}
+.list-group-item:hover {
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #131313;
+    color: #ff0a20;
+    -webkit-transition: all .15s ease-in-out;
+       -moz-transition: all .25s linear;
+        -ms-transition: all .25s linear;
+         -o-transition: all .25s linear;
+            transition: all .25s linear;
+}
 /************ Colors *******/
 
 .bg-coral {
@@ -244,6 +302,7 @@ hr.portfolio-hr {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
+    margin-bottom: .16em;
 }
 
 .avatar img {
