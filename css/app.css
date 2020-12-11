@@ -61,6 +61,14 @@ p {
     transition: .35s all linear;
 }
 
+.btn-coral:active {
+    font-size: 1.6em;
+    background-color: #212121;
+    color: #cc0000 ;
+    border-color: rgba(0, 0, 0, 0.5);
+    transition: .35s all ease-out;
+}
+
 .btn-outline-coral {
     font-size: 1em;
     color: #ffffff;
