@@ -4,6 +4,21 @@
  * @author @DevKhris
  */
 
+// Active navbar
+document.querySelectorAll('.nav-link');
+
+$(document).ready(function() {
+    $('selector').click(function() {
+        $('selector.active').removeClass("active");
+        $(this).addClass("active");
+    });
+});
+
+// Scroll Reveal section
+ScrollReveal().reveal("#about", { delay: 600 });
+ScrollReveal().reveal("#skills", { delay: 600 });
+ScrollReveal().reveal(".cards", { delay: 600 });
+
 //
 // Smooth scrolling functions
 // 
@@ -45,3 +60,4 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+

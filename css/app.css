@@ -1,9 +1,12 @@
 /********** Standard settings **********/
 
 * {
-    box-sizing: border-box;
     font-family: 'Rajdhani', 'Roboto', sans-serif;
     font-weight: 500;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
     scroll-behavior: smooth;
 }
 
@@ -12,7 +15,7 @@ body {
 }
 
 p {
-    white-space: normal;
+    white-space: none;
 }
 
 
@@ -26,6 +29,10 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.active {
+    color:  #ff0a20 !important;
 }
 
 .nav-link:hover {
@@ -91,11 +98,12 @@ p {
     background-color: #121212 !important;
 }
 
+
 .bg-img {
     background-image: url('../assets/wall-min.jpg');
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed !important;
+    background-attachment: fixed;
     background-size: cover;
 }
 
