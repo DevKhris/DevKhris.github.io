@@ -5,19 +5,19 @@
  */
 
 // Active navbar
-document.querySelectorAll('.nav-link');
+/* document.querySelectorAll('.nav-link');
 
 $(document).ready(function() {
     $('selector').click(function() {
         $('selector.active').removeClass("active");
         $(this).addClass("active");
     });
-});
+}); */
 
 // Scroll Reveal section
 ScrollReveal().reveal("#about", { delay: 600 });
 ScrollReveal().reveal("#skills", { delay: 600 });
-ScrollReveal().reveal(".cards", { delay: 600 });
+ScrollReveal().reveal("#portfolio", { delay: 600 });
 
 //
 // Smooth scrolling functions
